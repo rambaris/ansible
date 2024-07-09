@@ -1,0 +1,4 @@
+tasks:
+  - name: Mettre à jour la liste des paquets
+    apt:
+      update_cache: yes
