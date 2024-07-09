@@ -1,9 +1,0 @@
-tasks:
-  - name: Mettre à jour la liste des paquets
-    apt:
-      update_cache: yes
-  
-  # - name: Installer nfs-common
-  #   apt:
-  #     name: nfs-common
-  #     state: present
