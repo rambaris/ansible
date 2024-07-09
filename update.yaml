@@ -1,7 +1,0 @@
-  tasks:
-    - name: Mettre à jour la liste des paquets
-      apt:
-        update_cache: yes
-    - name: Mettre à jour le système
-      apt:
-        upgrade: dist
