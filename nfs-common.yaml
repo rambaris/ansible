@@ -3,7 +3,7 @@ tasks:
     apt:
       update_cache: yes
   
-  - name: Installer nfs-common
-    apt:
-      name: nfs-common
-      state: present
+  # - name: Installer nfs-common
+  #   apt:
+  #     name: nfs-common
+  #     state: present
